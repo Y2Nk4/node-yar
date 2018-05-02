@@ -1,13 +1,22 @@
 # node-yar
 **在Node.JS上实现鸟哥的YAR远程调用**
 
-## 关于
+# 使用方法
+## Class
+-------------
+### client (Constructe)
+
+### server (Constructe)
+
+# 关于
 **本模块尚未完成且未在NPM上发布**
 
-## TODO
-- 实现Client功能
+# TODO
+- 实现Client功能 √(初步实现)
+- 添加MSGPack解码器
+- 修复无法读取Yar_Header的Body_Len的问题
 
-## 相关项目
+# 相关项目
 ### PHP
 - laruence / yar - https://github.com/laruence/yar
 - Yar纯PHP实现 - https://github.com/laruence/yar/pull/20/commits/d45fbd210ba043441fb1b9956383b65cfeb13375

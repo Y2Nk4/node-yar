@@ -3,9 +3,9 @@
 
 # 使用方法
 ## Class
--------------
 ### client (Constructe)
-
+#### function
+- `setSetOpt` - Set Yar Request options
 ### server (Constructe)
 
 # 关于

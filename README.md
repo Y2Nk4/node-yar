@@ -1,13 +1,13 @@
 # node-yar
-**在Node.JS上实现鸟哥的YAR远程调用**
+**Yar RPC for Node.JS**
 
 # About
-### **本模块尚未完成且未在NPM上发布**
+### **This Module is not finished and not yet put on NPM**
 
 # TODO
-- 实现Client功能 √(初步实现)
-- 添加MSGPack解码器
-- 修复无法读取Yar_Header的Body_Len的问题
+- Finish Client Part √(Almost)
+- Add MSGPack Decoder
+- Fix the issue that cannot read Body_Len of Yar_Header
 
 # Usage
 #### 1.Download the Yar Module and put it to the node_modules folder.
@@ -39,7 +39,7 @@
 
 # Detail
 ## Class
-##### 引用Yar后，返回的对象将会提供两个类供实例化，分别是Yar的server和client。
+##### After import Yar module，the returned object will provide two class(as elements), which are server and client。
 ```
   var yar = require("Yar");
   var yar_client = new yar.client("http://192.168.1.16/Yar/server.php");

@@ -1,5 +1,5 @@
 # node-yar
-**Yar RPC for Node.JS**
+**Yar RPC Implementation for Node.JS**
 
 # About
 ### **This Module is not finished and not yet put on NPM**
